@@ -2,23 +2,28 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: > #PhD Student 🞄 Computer Science 🞄 <a href="https://www.rutgers.edu/">Rutgers University</a> 
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    PhD Student 🞄 Computer Science 🞄 <a href="https://www.rutgers.edu/">Rutgers University</a> 
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hey there! I'm a PhD student in Computer Science at [Rutgers University](https://www.rutgers.edu/).
+I'm interested in building systems that are secure, flexible, and efficient.
+My research intersts are broadly in Programming Languages, Operating Systems, Computer Security, and Computer Networks. 
+I'm privileged to work under the guidance of [Prof. Srinivas Narayana](https://people.cs.rutgers.edu/~sn624/) and [Prof. Santosh Nagarakatte](https://people.cs.rutgers.edu/~sn349/). 
+Currently, I work closely with the [eBPF](https://lwn.net/Articles/740157/) run-time in the Linux
+kernel; specifically the static program analysis taking place in the eBPF in-kernel verifier. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I previously completed a Masters from the [University at Buffalo](https://www.buffalo.edu/). 
+I worked with [Prof. Steven Ko](https://steveyko.github.io/), [Prof. Karthik Dantu](https://cse.buffalo.edu/faculty/kdantu/), and [Prof. Lukasz Ziarek](https://cse.buffalo.edu/~lziarek/) on 
+developing richer runtimes for trusted applications written for the [ARM TrustZone](https://developer.arm.com/ip-products/security-ip/trustzone) trusted execution enviroment. 
+I have also worked with [Prof. Anton Burtsev](https://www.ics.uci.edu/~aburtsev/) on designing fast hash tables that utilize the high bandwidth provided by modern memory (DRAM) subsystems.   
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.

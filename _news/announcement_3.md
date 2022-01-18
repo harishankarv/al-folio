@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2021-05-31
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Linux kernel [patch](https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next.git/commit/?id=05924717ac70) introducing a new algorithm for multiplication of tristate numbers is upstreamed.

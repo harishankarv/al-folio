@@ -1,9 +1,42 @@
 ---
 ---
+---
+---
 
-@string{aps = {American Physical Society,}}
+@misc{vishwanathan2021sound,
+  abbr={arXiv},
+  title={Sound, Precise, and Fast Abstract Interpretation with Tristate Numbers}, 
+  author={Harishankar Vishwanathan and Matan Shachnai and Srinivas Narayana and Santosh Nagarakatte},
+  year={2021},
+  eprint={2105.05398},
+  archivePrefix={arXiv},
+  primaryClass={cs.PL}, 
+  abstract={Extended Berkeley Packet Filter (BPF) is a language and run-time system that allows non-superusers to extend the Linux and Windows operating systems by downloading user code into the kernel. To ensure that user code is safe to run in kernel context, BPF relies on a static analyzer that proves properties about the code, such as bounded memory access and the absence of operations that crash. The BPF static analyzer checks safety using abstract interpretation with several abstract domains. Among these, the domain of tnums (tristate numbers) is a key domain used to reason about the bitwise uncertainty in program values. This paper formally specifies the tnum abstract domain and its arithmetic operators. We provide the first proofs of soundness and optimality of the abstract arithmetic operators for tnum addition and subtraction used in the BPF analyzer. Further, we describe a novel sound algorithm for multiplication of tnums that is more precise and efficient (runs 33% faster on average) than the Linux kernel's algorithm. Our tnum multiplication is now merged in the Linux kernel.},
+  selected={true}
+}
 
-@book{einstein1956investigations,
+@inproceedings{10.1145/3307334.3328650,
+  abbr={MobiSys},
+  author = {Vishwanathan, Harishankar and Park, Chang Min and Mishra, Sidharth Kumar and Dantu, Karthik and Ko, Steven Y. and Ziarek, Lukasz},
+  title = {Partitioning Garbage Collection Between the Secure and Normal Worlds for Trusted Applications (Poster)},
+  year = {2019},
+  isbn = {9781450366618},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3307334.3328650},
+  doi = {10.1145/3307334.3328650},
+  abstract = {Trusted Applications (TAs) written for Trusted Execution Environments (TEEs) using ARM TrustZone are currently written in C; there is limited support for higher-level languages. This leads to common manual memory management problems like buffer overflow and use-after-free. Higher-level languages, which have managed runtimes, allow for automated memory management, the benefits of which are widely accepted. To allow for automated memory management of TAs, we need to have a runtime that handles allocation and garbage collection (GC). However, having the entire allocator and GC in the secure world would increase the Trusted Computing Base (TCB) of the secure world. We propose TrustGC, a mechanism to partition garbage collection and allocation between the secure world and the normal world. TrustGC allows for automated memory management of TAs by leveraging the help of a GC partly running in the normal world.},
+  booktitle = {Proceedings of the 17th Annual International Conference on Mobile Systems, Applications, and Services},
+  pages = {610–611},
+  numpages = {2},
+  keywords = {trustzone, memory management, security, garbage collection},
+  location = {Seoul, Republic of Korea},
+  series = {MobiSys '19}
+}
+
+string{aps = {American Physical Society,}}
+
+book{einstein1956investigations,
   bibtex_show={true},
   title={Investigations on the Theory of the Brownian Movement},
   author={Einstein, Albert},
@@ -11,7 +44,7 @@
   publisher={Courier Corporation,}
 }
 
-@article{einstein1950meaning,
+article{einstein1950meaning,
   abbr={AJP},
   bibtex_show={true},
   title={The meaning of relativity},
@@ -24,7 +57,7 @@
   publisher={American Association of Physics Teachers,}
 }
 
-@article{PhysRev.47.777,
+article{PhysRev.47.777,
   abbr={PhysRev},
   title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
   author={Einstein, A. and Podolsky, B. and Rosen, N.},
@@ -44,7 +77,7 @@
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
+article{einstein1905molekularkinetischen,
   title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
   author={Einstein, A.},
   journal={Annalen der physik,},
@@ -55,7 +88,7 @@
   publisher={Wiley Online Library}
 }
 
-@article{einstein1905movement,
+article{einstein1905movement,
   abbr={Ann. Phys.},
   title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
   author={Einstein, A.},
@@ -65,7 +98,7 @@
   year={1905}
 }
 
-@article{einstein1905electrodynamics,
+article{einstein1905electrodynamics,
   title={On the electrodynamics of moving bodies},
   author={Einstein, A.},
   year={1905}

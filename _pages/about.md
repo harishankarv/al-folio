@@ -2,20 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: > #PhD Student 🞄 Computer Science 🞄 <a href="https://www.rutgers.edu/">Rutgers University</a> 
+subtitle: PhD Student 🞄 Computer Science 🞄 <a href="https://www.rutgers.edu/">Rutgers University</a> 
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    PhD Student 🞄 Computer Science 🞄 <a href="https://www.rutgers.edu/">Rutgers University</a> 
+  address: > #PhD Student 🞄 Computer Science 🞄 <a href="https://www.rutgers.edu/">Rutgers University</a> 
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hey there! I'm a PhD student in Computer Science at [Rutgers University](https://www.rutgers.edu/).
 I'm interested in building systems that are secure, flexible, and efficient.
 My research intersts are broadly in Programming Languages, Operating Systems, Computer Security, and Computer Networks. 
 I'm privileged to work under the guidance of [Prof. Srinivas Narayana](https://people.cs.rutgers.edu/~sn624/) and [Prof. Santosh Nagarakatte](https://people.cs.rutgers.edu/~sn349/). 

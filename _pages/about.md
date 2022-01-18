@@ -2,10 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student 🞄 Computer Science 🞄 <a href="https://www.rutgers.edu/">Rutgers University</a> 
+subtitle: PhD Student • Computer Science • <a href="https://www.rutgers.edu/">Rutgers University</a> 
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   address: > #PhD Student 🞄 Computer Science 🞄 <a href="https://www.rutgers.edu/">Rutgers University</a> 
 

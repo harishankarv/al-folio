@@ -153,6 +153,9 @@ plugins:
   - jekyll-target-blank
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
 
 # Sitemap settings
 defaults:

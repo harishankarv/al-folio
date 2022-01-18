@@ -3,20 +3,18 @@
 ---
 ---
 
-@misc{vishwanathan2021sound,
-  abbr={arXiv},
-  title={Sound, Precise, and Fast Abstract Interpretation with Tristate Numbers}, 
+@inproceedings{cgo22,
+  abbr={CGO '22},
   author={Harishankar Vishwanathan and Matan Shachnai and Srinivas Narayana and Santosh Nagarakatte},
-  year={2021},
-  eprint={2105.05398},
-  archivePrefix={arXiv},
-  primaryClass={cs.PL}, 
+  title={Sound, Precise, and Fast Abstract Interpretation with Tristate Numbers}, 
+  year={2022},
+  booktitle={2022 IEEE/ACM International Symposium on Code Generation and Optimization (CGO)}, 
   abstract={Extended Berkeley Packet Filter (BPF) is a language and run-time system that allows non-superusers to extend the Linux and Windows operating systems by downloading user code into the kernel. To ensure that user code is safe to run in kernel context, BPF relies on a static analyzer that proves properties about the code, such as bounded memory access and the absence of operations that crash. The BPF static analyzer checks safety using abstract interpretation with several abstract domains. Among these, the domain of tnums (tristate numbers) is a key domain used to reason about the bitwise uncertainty in program values. This paper formally specifies the tnum abstract domain and its arithmetic operators. We provide the first proofs of soundness and optimality of the abstract arithmetic operators for tnum addition and subtraction used in the BPF analyzer. Further, we describe a novel sound algorithm for multiplication of tnums that is more precise and efficient (runs 33% faster on average) than the Linux kernel's algorithm. Our tnum multiplication is now merged in the Linux kernel.},
   selected={true}
 }
 
-@inproceedings{10.1145/3307334.3328650,
-  abbr={MobiSys},
+@inproceedings{mobisys19,
+  abbr={MobiSys '19},
   author = {Vishwanathan, Harishankar and Park, Chang Min and Mishra, Sidharth Kumar and Dantu, Karthik and Ko, Steven Y. and Ziarek, Lukasz},
   title = {Partitioning Garbage Collection Between the Secure and Normal Worlds for Trusted Applications (Poster)},
   year = {2019},

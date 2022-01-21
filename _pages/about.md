@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student • Computer Science • <a href="https://www.rutgers.edu/">Rutgers University</a> 
+subtitle: PhD Student • Computer Science • <a href="https://www.rutgers.edu/">Rutgers University</a> • Jersey City, NJ
 
 profile:
   align: left
   image: prof_pic.jpg
-  address: > #PhD Student 🞄 Computer Science 🞄 <a href="https://www.rutgers.edu/">Rutgers University</a> 
+  address: > #PhD Student • Computer Science • <a href="https://www.rutgers.edu/">Rutgers University</a> 🤖🌎🧑🏽‍🎓🔴
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"

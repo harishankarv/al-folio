@@ -8,14 +8,14 @@ middle_name:
 last_name: Vishwanathan
 email: harishankar.vishwanathan@rutgers.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Harishankar's personal website.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: # jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🚵‍♂️ # the emoji used as the favicon
+icon: # the emoji used as the favicon
 url: https://harishankarv.github.io # the base hostname & protocol for your site
 baseurl: #/about # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
@@ -201,8 +201,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Vishwanathan
+  first_name: [Harishankar]
 
   style: apa
   locale: en

@@ -15,7 +15,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I'm interested in building systems that are secure, flexible, and efficient.
-My research intersts are broadly in Programming Languages, Operating Systems, Computer Security, and Computer Networks. 
+My research interests are broadly in Programming Languages, Operating Systems, Computer Security, and Computer Networks. 
 I'm privileged to work under the guidance of [Prof. Srinivas Narayana](https://people.cs.rutgers.edu/~sn624/) and [Prof. Santosh Nagarakatte](https://people.cs.rutgers.edu/~sn349/). 
 Currently, I work closely with the [eBPF](https://lwn.net/Articles/740157/) run-time in the Linux
 kernel; specifically the static program analysis taking place in the eBPF in-kernel verifier. 
